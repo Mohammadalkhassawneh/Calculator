@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+    color: white;
+  
+   
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    
+
+
+}
+.header {
+margin: 10px;    
+background-color: aqua;
+font-weight: bold;
+   
+    height: 75px;
+    justify-content: center;
+    align-content: center;
+}
+.content {
+    background-color: thistle;
+    color: black;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+
+    
+    
+}

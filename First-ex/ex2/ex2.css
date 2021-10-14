@@ -1,0 +1,41 @@
+*{
+    justify-content: center;
+  
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color:blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    padding: 2%;
+    margin: 2%;
+    justify-content: flex-start;
+}
+.pink {
+    width: 32%;
+    
+    background-color: blueviolet;
+    margin:1px;
+    align-content: flex-start;
+text-align: center;
+    margin: 3px;
+}
+.three {
+    width: 65%;
+    background-color: blueviolet;
+        margin:3px;
+        text-align: center;
+
+
+}
+.seven {
+    width: 32%;
+    background-color: blueviolet;
+    order: 2;
+    margin: 3px;
+    text-align: center;
+
+}
